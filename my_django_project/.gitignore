@@ -1,0 +1,33 @@
+ECHO is on.
+
+# Ignore system files
+*.log
+*.pyc
+__pycache__/
+db.sqlite3
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore database dumps
+*.sql
+
+# Ignore unnecessary files
+.DS_Store
+Thumbs.db
+
+# Ignore AppData and other system directories
+../AppData/
+../Cookies/
+../Local Settings/
+../NetHood/
+../PrintHood/
+../Recent/
+../SendTo/
+../Start Menu/
+../Templates/
+../My Documents/
